@@ -1,0 +1,40 @@
+list: user.modelDestination
+-
+
+# A list of adjectives/adverbs describing how the result of the GPT query should be returned
+
+# paste in place
+to this: paste
+
+# Paste above the current selection
+above: above
+
+# Past below the current selection
+below: below
+
+# Instead of pasting, return the result to the clipboard
+to clip: clipboard
+
+# Instead of pasting, add the result to the context
+to context: context
+
+# Instead of pasting, add the result to a new context
+to new context: newContext
+
+# Instead of pasting, append the result to the clipboard
+to after clip: appendClipboard
+
+# Open the result in the browser
+to browser: browser
+
+# Speak the result with TTS
+to speech: textToSpeech
+
+# Output the result in a talon imgui window
+to window: window
+
+# Select the response after insertion so you can apply subsequent prompts on it
+chain: chain
+
+# Insert the response as a snippet with placeholders (only works in vscode)
+snip: snip

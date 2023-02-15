@@ -1,0 +1,27 @@
+# This is an example settings file.
+# To make changes, copy this into your user directory and remove the .example extension
+
+settings():
+    # Set the endpoint that the model requests should go to.
+    # Works with any API with the same schema as OpenAI's (i.e. Azure, llamafiles, etc.)
+    # Set to "llm" to use the local llm cli tool as a helper for routing all your model requests
+    # user.model_endpoint = "https://api.openai.com/v1/chat/completions"
+
+    # If using user.model_endpoint = "llm" and the llm binary is not found on Talon's PATH, you can
+    # specify it directly:
+    # user.model_llm_path = "/path/to/llm"
+
+    # user.model_system_prompt = "You are an assistant helping an office worker to be more productive."
+
+    # Change to the model of your choice
+    # user.model_default = 'gpt-4o'
+
+    # Increase the window width.
+    # user.model_window_char_width = 120
+
+    # Disable notifications for nominal behavior. Useful on Windows where notifications are
+    # throttled.
+    # user.model_verbose_notifications = false
+
+# Use codeium instead of Github Copilot
+# tag(): user.codeium

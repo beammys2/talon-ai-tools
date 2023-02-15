@@ -1,0 +1,10 @@
+# Copy this file into your user directory and add your own custom prompts
+# Any prompts in this list are automatically added into the <user.modelPrompt> capture
+# and thus can be used like normal alongside all of the other model commands
+
+list:  user.customPrompt
+-
+
+# Example of a custom prompt that is unique to a user's personal workflow
+
+check language: I am learning a new foreign language. Check the grammar of what I have written and return feedback in English with references to what I wrote.

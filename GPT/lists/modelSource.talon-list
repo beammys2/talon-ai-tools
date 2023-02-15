@@ -1,0 +1,19 @@
+list: user.modelSource
+-
+
+# A list of sources from which the model can take in data to process
+
+# Apply the prompt to the text on the clipboard
+clip: clipboard
+
+# Apply the prompt to the text in the context
+context: context
+
+# Apply the prompt to the currently selected text
+this: selection
+
+# Apply the prompt to the previously returned GPT response
+response: gptResponse
+
+# Apply the prompt to the last phrase typed by Talon via a user's dictation
+last: lastTalonDictation
